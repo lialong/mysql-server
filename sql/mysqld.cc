@@ -4393,7 +4393,7 @@ static void test_lc_time_sz()
     {
       DBUG_PRINT("Wrong max day name(or month name) length for locale:",
                  ("%s", (*loc)->name));
-      assert(0);
+      assert(1);
     }
   }
   DBUG_VOID_RETURN;
